@@ -1,0 +1,11 @@
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\bin\Debug\net6.0\PokeApi.Application.Abstraction.Domain.deps.json
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\bin\Debug\net6.0\PokeApi.Application.Abstraction.Domain.dll
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\bin\Debug\net6.0\PokeApi.Application.Abstraction.Domain.pdb
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\obj\Debug\net6.0\PokeApi.Application.Abstraction.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\obj\Debug\net6.0\PokeApi.Application.Abstraction.Domain.AssemblyInfoInputs.cache
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\obj\Debug\net6.0\PokeApi.Application.Abstraction.Domain.AssemblyInfo.cs
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\obj\Debug\net6.0\PokeApi.Application.Abstraction.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\obj\Debug\net6.0\PokeApi.Application.Abstraction.Domain.dll
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\obj\Debug\net6.0\refint\PokeApi.Application.Abstraction.Domain.dll
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\obj\Debug\net6.0\PokeApi.Application.Abstraction.Domain.pdb
+C:\Users\Cliente\source\repos\PokeAPI\PokeApi.Application.Abstraction\obj\Debug\net6.0\ref\PokeApi.Application.Abstraction.Domain.dll

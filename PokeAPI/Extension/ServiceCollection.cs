@@ -1,4 +1,5 @@
-﻿using PokeApi.Application.Interface;
+﻿using PokeApi.Application.Infra.Data.Repository;
+using PokeApi.Application.Interface;
 using PokeApi.Application.Services;
 
 namespace PokeAPI.Extension
@@ -17,12 +18,14 @@ namespace PokeAPI.Extension
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             services.AddScoped<IPokemonService, PokeService>();
+         
             return services;
         }
 
         public static IServiceCollection AddRepository(this IServiceCollection services)
         {
-           
+            services.AddScoped<IPlayerDTORepository, PlayerDTORepository>();
+            services.AddScoped<IPokeDTORepository, PokeDTORepository>();
             return services;
         }
 

@@ -1103,6 +1103,21 @@
         "runtime": {
           "bin/placeholder/PokeApi.Application.Abstraction.Domain.dll": {}
         }
+      },
+      "PokeApi.Application.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12",
+          "PokeApi.Application.Abstraction.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PokeApi.Application.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PokeApi.Application.Infra.Data.dll": {}
+        }
       }
     }
   },
@@ -2988,6 +3003,11 @@
       "type": "project",
       "path": "../PokeApi.Application.Abstraction/PokeApi.Application.Abstraction.Domain.csproj",
       "msbuildProject": "../PokeApi.Application.Abstraction/PokeApi.Application.Abstraction.Domain.csproj"
+    },
+    "PokeApi.Application.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../PokeApi.Application.Infra.Data/PokeApi.Application.Infra.Data.csproj",
+      "msbuildProject": "../PokeApi.Application.Infra.Data/PokeApi.Application.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2997,6 +3017,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.12",
       "Newtonsoft.Json >= 13.0.3",
       "PokeApi.Application.Abstraction.Domain >= 1.0.0",
+      "PokeApi.Application.Infra.Data >= 1.0.0",
       "System.Reactive >= 6.0.1"
     ]
   },
@@ -3035,6 +3056,9 @@
           "projectReferences": {
             "C:\\Users\\Cliente\\source\\repos\\PokeAPI\\PokeApi.Application.Abstraction\\PokeApi.Application.Abstraction.Domain.csproj": {
               "projectPath": "C:\\Users\\Cliente\\source\\repos\\PokeAPI\\PokeApi.Application.Abstraction\\PokeApi.Application.Abstraction.Domain.csproj"
+            },
+            "C:\\Users\\Cliente\\source\\repos\\PokeAPI\\PokeApi.Application.Infra.Data\\PokeApi.Application.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\Cliente\\source\\repos\\PokeAPI\\PokeApi.Application.Infra.Data\\PokeApi.Application.Infra.Data.csproj"
             }
           }
         }

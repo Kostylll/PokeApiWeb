@@ -15,11 +15,28 @@ namespace PokeAPI.Controllers
             _pokeService = pokeService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetPokemon(string Name)
+        [HttpGet("name")]
+        public async Task<IActionResult> GetPokemonByName(string Name)
         {
-            var result = await _pokeService.ExibirPokemon(Name);
+            var result = await _pokeService.ExibirPokemonByName(Name);
             return Ok(result);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetPokemon()
+        {
+            var result = await _pokeService.ExibirPokemon();
+            return Ok(result);
+        }
+
+
+        [HttpPost]
+
+        public async Task<IActionResult> PostPokemon(string Name)
+        {
+            var result = await _pokeService.AdicionarPokemon(Name);
+            return Ok(result);
+        }
+
     }
 }

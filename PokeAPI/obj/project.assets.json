@@ -1185,6 +1185,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12",
           "Newtonsoft.Json": "13.0.3",
           "PokeApi.Application.Abstraction.Domain": "1.0.0",
+          "PokeApi.Application.Infra.Data": "1.0.0",
           "System.Reactive": "6.0.1"
         },
         "compile": {

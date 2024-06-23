@@ -191,6 +191,9 @@
             "projectReferences": {
               "C:\\Users\\Cliente\\source\\repos\\PokeAPI\\PokeApi.Application.Abstraction\\PokeApi.Application.Abstraction.Domain.csproj": {
                 "projectPath": "C:\\Users\\Cliente\\source\\repos\\PokeAPI\\PokeApi.Application.Abstraction\\PokeApi.Application.Abstraction.Domain.csproj"
+              },
+              "C:\\Users\\Cliente\\source\\repos\\PokeAPI\\PokeApi.Application.Infra.Data\\PokeApi.Application.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Cliente\\source\\repos\\PokeAPI\\PokeApi.Application.Infra.Data\\PokeApi.Application.Infra.Data.csproj"
               }
             }
           }

@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PokeApi.Application.Abstraction\PokeApi.Application.Abstraction.Domain.csproj" />
+    <ProjectReference Include="..\PokeApi.Application.Infra.Data\PokeApi.Application.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

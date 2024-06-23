@@ -18,7 +18,7 @@ namespace PokeAPI.Extension
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             services.AddScoped<IPokemonService, PokeService>();
-         
+            services.AddScoped<IPlayerService, PlayerService>();
             return services;
         }
 

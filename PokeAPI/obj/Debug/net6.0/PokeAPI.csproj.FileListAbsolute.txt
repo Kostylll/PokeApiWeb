@@ -92,3 +92,4 @@ C:\Users\Cliente\source\repos\PokeAPI\PokeAPI\bin\Debug\net6.0\runtimes\browser\
 C:\Users\Cliente\source\repos\PokeAPI\PokeAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Cliente\source\repos\PokeAPI\PokeAPI\bin\Debug\net6.0\PokeApi.Application.Infra.Data.dll
 C:\Users\Cliente\source\repos\PokeAPI\PokeAPI\bin\Debug\net6.0\PokeApi.Application.Infra.Data.pdb
+C:\Users\Cliente\source\repos\PokeAPI\PokeAPI\obj\Debug\net6.0\PokeAPI.MvcApplicationPartsAssemblyInfo.cs

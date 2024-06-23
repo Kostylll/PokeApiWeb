@@ -9,7 +9,8 @@ namespace PokeApi.Application.Abstraction.Domain.Request
     public class PokeDTORequest
     {
         public string Name { get; set; }
-        public int Id { get; set; }
+        public string order { get; set; }
+        public string weight { get; set; }
     }
 }
 

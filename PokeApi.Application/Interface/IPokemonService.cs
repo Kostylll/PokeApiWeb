@@ -10,7 +10,11 @@ namespace PokeApi.Application.Interface
 {
     public interface IPokemonService
     {
-        Task<PokeDTOResponse> ExibirPokemon(string Name);
+        Task<PokeDTOResponse> ExibirPokemonByName(string Name);
+
+        Task<List<PokeDTORequest>> ExibirPokemon();
+
+        Task<bool> AdicionarPokemon(string Name);
 
     }
 }

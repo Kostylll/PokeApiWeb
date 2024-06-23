@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.12",
           "Newtonsoft.Json": "13.0.3",
           "PokeApi.Application.Abstraction.Domain": "1.0.0",
+          "PokeApi.Application.Infra.Data": "1.0.0",
           "System.Reactive": "6.0.1"
         },
         "runtime": {
@@ -665,6 +666,16 @@
         "runtime": {
           "PokeApi.Application.Abstraction.Domain.dll": {}
         }
+      },
+      "PokeApi.Application.Infra.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12",
+          "PokeApi.Application.Abstraction.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PokeApi.Application.Infra.Data.dll": {}
+        }
       }
     }
   },
@@ -1109,6 +1120,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "PokeApi.Application.Abstraction.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PokeApi.Application.Infra.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

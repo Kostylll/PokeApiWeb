@@ -10,6 +10,7 @@ namespace PokeApi.Application.Abstraction.Domain.DTO
     public class PokeDTO : Entity
     {
         public string Name { get; set; }
-       
+        public string order { get; set; }
+        public string weight { get; set; }
     }
 }

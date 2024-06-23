@@ -22,8 +22,10 @@ namespace PokeApi.Application.Infra.Data.Configurations
                 .ValueGeneratedNever();
 
             builder.Property(x => x.Name).HasMaxLength(255).IsRequired();
-          
-           
+            builder.Property(x => x.weight).IsRequired();
+            builder.Property(x => x.order).IsRequired();
+
+
         }
 
     }

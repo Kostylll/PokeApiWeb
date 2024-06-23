@@ -10,9 +10,8 @@ namespace PokeApi.Application.Abstraction.Domain.Response
     {
 
         public string Name { get; set; }
-        public int Id { get; set; }
-
-        public string base_experience { get; set; }
+        public string order { get; set; }
+        public string weight { get; set; }
 
     }
 }

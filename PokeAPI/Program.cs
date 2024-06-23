@@ -17,7 +17,7 @@ builder.Services.AddControllers(x => x.AllowEmptyInputInBodyModelBinding = true)
 
 builder.Services.AddDbContext<PokeApiDbContext>(options =>
 {
-    var cnn = builder.Configuration.GetConnectionString("PokeApiDB");
+    var cnn = builder.Configuration.GetConnectionString("PokeApiDb");
     options.UseSqlServer(cnn);
 });
 
@@ -27,7 +27,7 @@ var app = builder.Build();
 
 app.UseCors(m => m.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
